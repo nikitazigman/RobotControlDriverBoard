@@ -22,11 +22,12 @@ The Altium project consist of 6 lists of cuircuit and one PCB files.
 In the Doc foled I put excel table with the list of all used components. 
 
 Each of the lists except of [MAIN](MAIN.SchDoc) contains "independent" block. 
-    1. [MCU](MCU.SchDoc) I used the STM32F446RET6 microcontroller. Sheet also includes connectors that directely connected to it.
-    2. [H bridge](H_bridge.SchDoc) contains Full H bridge circuit. The Circuit was based on BTS7970B microchip, and totaly repeats circuit from the datasheet.
-    3. [COM Port](com_port.SchDoc) I used the UART-USB converter CP2102-GMR.
-    4. [Power supply](power_supply.SchDoc) in the project I used ADP3338AKCZ-3.3RL7 LDO to convert 5V to 3.3V 
-    5. [Cooler](Radiator.SchDoc) I used the sk68-75-sa radiator and fan for cooling the drivers  
+
+1. [MCU](MCU.SchDoc) I used the STM32F446RET6 microcontroller. Sheet also includes connectors that directely connected to it.
+2. [H bridge](H_bridge.SchDoc) contains Full H bridge circuit. The Circuit was based on BTS7970B microchip, and totaly repeats circuit from the datasheet.
+3. [COM Port](com_port.SchDoc) I used the UART-USB converter CP2102-GMR.
+4. [Power supply](power_supply.SchDoc) in the project I used ADP3338AKCZ-3.3RL7 LDO to convert 5V to 3.3V 
+5. [Cooler](Radiator.SchDoc) I used the sk68-75-sa radiator and fan for cooling the drivers  
 
 ## Errata note
 
