@@ -6,7 +6,7 @@ This board was designed to controll delivery robot.
 The robot has 2 motors: one for propultion and one for sterring. 
 
 The board communicates with the main PC trough COM Port interface using ROS serial commuication protocol. 
-The software you can find [here]() 
+The software you can find [here](https://github.com/nikitazigman/RobotControlBoard_soft) 
 
 The board contains: 
 * two H bridges to operate DC motors ( you can also use it to controll LED strips). Theoretically the board can operate 30A and 30V. 
@@ -33,4 +33,4 @@ Each of the lists except of [MAIN](MAIN.SchDoc) contains "independent" block.
 
 1. I forgot to separate Power and digital GND and in case of high load you can have big noise in digital lines. I solved this problem using non galvanic isolation USB-USB board [ICQUANZX ADUM3160 ADUM3160 USB to USB](https://www.amazon.de/-/en/gp/product/B07Z21RKMN/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
 2. The ground plane of drivers not wide enough to provide continuous 30A current
-3. I didn't use some protection stuff on my board beacause I have them outside of the board. I suggest to use some supressors and fuses for protection :)
+3. I didn't use protection stuff on my board beacause I have them outside of the board. I suggest to use some supressors and fuses for the protection :)
