@@ -167,7 +167,7 @@ I hope other folders you will never need
 
 ## HARDWARE PART
   
-you can find it [here](https://gitlab.com/intelligent-transportation-systems/last_mile_robot/circuits/driver-circuit)
+you can find it [here](https://github.com/nikitazigman/RobotControlBoard_hard)
 
 ### P.S
 
